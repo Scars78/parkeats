@@ -7,7 +7,7 @@ export const PARKS_FALLBACK = [
   { id: "bluejays", team: "Toronto Blue Jays", park: "Rogers Centre", city: "Toronto, ON" },
   { id: "rays", team: "Tampa Bay Rays", park: "Tropicana Field", city: "St. Petersburg, FL" },
   { id: "orioles", team: "Baltimore Orioles", park: "Oriole Park at Camden Yards", city: "Baltimore, MD" },
-  { id: "whitesox", team: "Chicago White Sox", park: "Guaranteed Rate Field", city: "Chicago, IL" },
+  { id: "whitesox", team: "Chicago White Sox", park: "Rate Field", city: "Chicago, IL" },
   { id: "guardians", team: "Cleveland Guardians", park: "Progressive Field", city: "Cleveland, OH" },
   { id: "tigers", team: "Detroit Tigers", park: "Comerica Park", city: "Detroit, MI" },
   { id: "royals", team: "Kansas City Royals", park: "Kauffman Stadium", city: "Kansas City, MO" },

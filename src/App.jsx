@@ -7,7 +7,7 @@ import { PARKS_FALLBACK } from './data/fallback.js'
 // ─── CONFIG ────────────────────────────────────────────────────────────────
 // Paste your Google Sheets CSV URL here after following the setup guide.
 // Leave as empty string to use the built-in fallback data.
-const SHEET_URL = '/api/sheet'
+const SHEET_URL = 'https://script.google.com/macros/s/AKfycbx-Pz_64Scdl5eeBkD97Eroz5aZGgsK_ossm8M8fWLtreaK8x4g9n8h3SBPl_Si5zjL/exec'
 
 // ─── Division layout (park IDs only — names come from the sheet) ───────────
 const DIVISIONS = ["AL East","AL Central","AL West","NL East","NL Central","NL West"]

@@ -286,7 +286,7 @@ export default function App() {
             <div style={{fontSize:'12px',color:'#666',marginBottom:'8px'}}>Your Rating</div>
             <StarRating value={pendingRating} onChange={setPendingRating}/>
             <div style={{fontSize:'12px',color:'#666',marginTop:'16px',marginBottom:'2px'}}>Notes (optional)</div>
-            <textarea style={css.ta} rows={3} placeholder="What did you think? Any tips?" value={pendingNote} onChange={e=>setPendingNote(e.target.value)}/>
+            <textarea style={css.ta} rows={3} placeholder="What did you think? Any tips?" value={pendingNote} onChange={(e)=>setPendingNote(e.target.value)} onFocus={(e)=>e.target.scrollIntoView({behavior:'smooth',block:'start'})}/>
             <button style={css.sbtn} onClick={saveLog}>Save to Tracker</button>
             <button style={css.cbtn} onClick={()=>setShowLogModal(false)}>Cancel</button>
           </div>

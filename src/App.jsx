@@ -21,7 +21,7 @@ const DIVISION_IDS = {
 }
 
 const CATEGORIES = ["All","Classic","Seafood","Sandwiches","Sides","Snacks","Dessert","BBQ","Mexican","Pizza","Healthy","Asian","Burgers","Drinks","Gluten-Free"]
-,
+
 
 function StarRating({ value, onChange, readonly = false }) {
   const [hover, setHover] = useState(0)

@@ -20,8 +20,8 @@ const DIVISION_IDS = {
   "NL West": ["diamondbacks","rockies","dodgers","padres","giants"],
 }
 
-const CATEGORIES = ["All","Classic","Seafood","Sandwiches","Sides","Snacks","Dessert","BBQ","Mexican","Pizza","Healthy","Asian","Burgers","Drinks"]
-
+const CATEGORIES = ["All","Classic","Seafood","Sandwiches","Sides","Snacks","Dessert","BBQ","Mexican","Pizza","Healthy","Asian","Burgers","Drinks","Gluten-Free"]
+,
 
 function StarRating({ value, onChange, readonly = false }) {
   const [hover, setHover] = useState(0)
